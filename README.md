@@ -1,2 +1,3 @@
 # NSAds
-Implement admob ads easily in your SwiftUI projects
+
+A description of this package.
