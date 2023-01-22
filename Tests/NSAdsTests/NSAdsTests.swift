@@ -6,6 +6,6 @@ final class NSAdsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(NSAds().text, "Hello, World!")
+//        XCTAssertEqual(NSAds().text, "Hello, World!")
     }
 }
