@@ -7,8 +7,10 @@
 
 import GoogleMobileAds
 
-final class NSAdsService {
-    func start(_ completionHandler: @escaping GADInitializationCompletionHandler) {
+public final class NSAdsService {
+    let shared = NSAdsService()
+    
+    public func start(_ completionHandler: @escaping GADInitializationCompletionHandler) {
         GADMobileAds.sharedInstance().start(completionHandler: completionHandler)
     }
 }
